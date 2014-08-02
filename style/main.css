@@ -1,0 +1,171 @@
+html, body {
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+/*********************************************** HEADER START ********************************************/
+header {
+	background: url('../images/header-bg.png');
+	width: 100%;
+	height: 60px;
+}
+header img {
+	margin-top: 10px; 
+}
+.dashed {
+	height: 1px;
+	width: 100%;
+	margin-top: 10px;
+	background: url('../images/dashed.png') repeat-x;
+}
+/*********************************************** HEADER END ********************************************/
+
+/*********************************************** NAV START ********************************************/
+nav {
+	background: #fff url('../images/menu_bg.png');
+	width: 100%;
+	height: 50px;
+}
+nav li {
+	float: left;
+	display: inline-block;
+	list-style: none;
+}
+nav ul {
+	padding: 0;
+}
+nav ul a {
+	padding: 16px;
+	text-decoration: none;
+	color: #353736;
+	background: url('../images/menu_sep.png') bottom right no-repeat;
+}
+nav ul a:hover {
+	color: #000;
+}
+.active {
+	background: url('../images/noise.png') repeat scroll 0% 0% #FFC513;
+	color: #000;
+}
+
+/*********************************************** NAV END ********************************************/
+
+/*********************************************** MAIN START ********************************************/
+main {
+	margin: 10px 0;
+}
+/******************************************* TABS START *****************************************/
+
+#features {
+	margin: 20px 0;
+	background:url('../images/noise.png') #FFC513
+}
+#tabcont div {
+	float: left;
+	width: 333px;
+}
+#tabcont img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
+#tabcont h3 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	color: #1f2120;
+}
+#tabcont p {
+	text-align: center;
+	padding: 0 20px 20px 20px;
+	color: #212b2a;
+	font-weight: 300;
+}
+/******************************************* TABS END ****************************************/
+/*********************************************** MAIN END ********************************************/
+
+/*********************************************** FOOTER START ********************************************/
+footer {
+	width: 100%;
+	background: url('../images/ft_bg.png');
+	height: auto !important;
+}
+.col-ft {
+	float: left;
+	width: 321px;
+	padding: 0 10px;
+}
+h3.widget-title {
+	font-size: 20px;
+	font-weight: 500;	
+}
+ul.tweets {
+	list-style: none;
+	padding:0;
+}
+.tweets > li, .col-ft > p{
+	color: #4f4f4f;
+	font-size: 14px;
+	font-weight: 300;
+	padding-bottom: 10px; 
+}
+.tweets > li > span {
+	color:#8e8e8e;
+	font-size: 12px;
+}
+/*********************************************** FOOTER END ********************************************/
+
+/******************************************** CANVAS START *****************************************************/
+#canvas {
+	height: 650px;
+}
+/******************************************** CANVAS END *******************************************************/
+/******************************************** MISC *******************************************************/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+.btn-red {
+	color: #ffffff;
+	margin: 0;
+	border: none;
+	background: #e15655;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e15655), to(#be3935));
+	background: -webkit-linear-gradient(top, #e15655, #be3935);
+	background: -moz-linear-gradient(top, #e15655, #be3935);
+	background: -ms-linear-gradient(top, #e15655, #be3935);
+	background: -o-linear-gradient(top, #e15655, #be3935);
+}
+.btn-red:hover {
+	color: #ffffff;
+	background: #be3935 !important;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#be3935), to(#e15655)) !important;
+	background: -webkit-linear-gradient(top, #be3935, #e15655) !important;
+	background: -moz-linear-gradient(top, #be3935, #e15655) !important;
+	background: -ms-linear-gradient(top, #be3935, #e15655) !important;
+	background: -o-linear-gradient(top, #be3935, #e15655) !important;
+}
+.btn, button {
+	font-size: 14px;
+	margin-bottom: 5px;
+	height: 32px;
+	border-radius: 5px;
+	border: none;
+}
+.btn:hover, button:hover {
+	background:#c6c6c6;
+}
+/******************************************** MISC ****************************************************/

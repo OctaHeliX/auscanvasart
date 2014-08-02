@@ -1,0 +1,342 @@
+#cv_left_nav {
+	width: 100px;
+	background-color: #323232;
+	height: 100%;
+}
+#cv_content {
+	background-color: #f4f4f4;
+	height: 100%;
+	margin-left: 100px;
+	z-index: 5;
+}
+.but_nav {
+	height: 100px;
+	margin-bottom: 10px;
+	 -webkit-transition: all .8s ease-out;
+	 -moz-transition: all .8s ease-out;
+	 -ms-transition: all .8s ease-out;
+	 -o-transition: all .8s ease-out;
+	 transition: all .8s ease-out;
+}
+.but_nav img {
+	position: relative;
+	left: 50%;
+	top: 50%; 
+	margin-left: -15px;
+	margin-top: -22px;
+}
+.but_content {
+	width: 100%;
+	background-color: #d7d7d7;
+	height: 100px;
+	margin-bottom: 10px;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	
+}
+.des {
+	display: table-cell;
+	vertical-align: middle;
+	min-height: 10em;
+	padding:0 20px;
+	height: 100px;
+}
+.col_strip {
+	height: 100%;
+	width: 5px;
+}
+#nav_title {
+	height: 100px;
+	width: 100%;
+}
+#content_title {
+	height: 100px;
+	width: 100%;
+}
+.but_content p {
+	color: #8f8f8f;
+	font-size: 13px;
+	line-height: 1.5em;
+}
+.but_content p span {
+	font-size: 20px;
+	color: #414141;
+}
+.nav_title {
+	height: 100%;
+	width: 100%;
+	margin-left: 100px;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-ms-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	transition-delay: 0.50s;
+	z-index: 1;
+	opacity: 0;
+}
+.nav_title img {
+	margin: 38px 43px;
+}
+/*********************************************** UPLOAD START *************************************************/
+.mainCont_01 {
+	display: none;
+}
+/*.mainCont_01 button {
+   border-top: 1px solid #3b3b3b;
+   background: #3b3b3b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#212121), to(#3b3b3b));
+   background: -webkit-linear-gradient(top, #212121, #3b3b3b);
+   background: -moz-linear-gradient(top, #212121, #3b3b3b);
+   background: -ms-linear-gradient(top, #212121, #3b3b3b);
+   background: -o-linear-gradient(top, #212121, #3b3b3b);
+   padding: 4.5px 9px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   text-decoration: none;
+   vertical-align: middle;
+   border: none;
+   width: 70px
+}
+.mainCont_01 button:hover {
+   border-top-color: #616161;
+   background: #616161;
+   color: #ccc;
+}*/
+.mainCont_01 ul {
+	list-style: none;
+}
+.select_title {
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+}
+.mainCont_01 div {
+	width: 200px;
+}
+.mainCont_01 li {
+	padding-bottom: 5px;
+}
+.mainCont_01 li span {
+	color: #8f8f8f;
+	font-size: 12px;
+	display: inline-block;
+	width: 50px;
+}
+/*.mainCont_02 {
+	padding-left: 10px;
+	padding-top: 20px;
+}*/
+.mainCont_02 img {
+	padding-left:252px;
+}
+.mainCont_02 p {
+	color:#9c9c9c;
+	font-size:20px;
+	text-align:center	
+}
+/*.mainCont_02 button {
+	margin-left: 398px;
+	padding: 0 20px;
+}*/
+/*.mainCont_03 {
+	margin: 0 0 0 10px;
+}
+*/.butOpt {
+	cursor: pointer;
+	font-size: 20px;
+	color: #323232;
+}
+.options {
+	width: 310px;
+}
+.options p {
+	width: 210px;
+	margin-right:15px;
+	font-weight: 300;
+}
+.options p span {
+	font-weight: 500;
+}
+.options img {
+	padding-top: 10px;
+}
+.options div {
+	background-color: #d5d5d5;
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	margin-bottom:5px;
+}
+.options:hover {
+	cursor: pointer;
+}
+.mainCont_04 {
+	padding: 20px;
+}
+#form1 input {
+	margin-bottom: 5px;
+	height: 32px;
+	border-radius: 5px;
+	border: 1px #949494 solid;
+	font-size: 14px;
+}
+
+.mainCont_01, .mainCont_02, .mainCont_03, .mainCont_04 {
+	padding: 20px;
+}
+
+input[type='range'] {
+		-webkit-appearance: none;
+		border-radius: 5px;
+		background-color: #999;
+		height: 5px;
+		vertical-align: middle;
+	}
+	input[type='range']::-moz-range-track {
+		-moz-appearance: none;
+		border-radius: 5px;
+		background-color: #999;
+		height: 5px;
+	}
+	input[type='range']::-webkit-slider-thumb {
+		-webkit-appearance: none !important;
+		border-radius: 20px;
+		background-color: #FFF;
+		/*box-shadow:inset 0 0 10px rgba(000,000,000,0.5);*/
+		border: 1px solid #999;
+		height: 15px;
+		width: 15px;
+	}
+	input[type='range']::-moz-range-thumb {
+		-moz-appearance: none;
+		border-radius: 20px;
+		background-color: #FFF;
+	/*	box-shadow:inset 0 0 10px rgba(000,000,000,0.5);*/
+		border: 1px solid #999;
+		height: 15px;
+		width: 15px;
+	}
+.nav_buttons {
+	margin: -35px 0 0 0;
+}
+#canvas-to-img{display:none;}
+/*********************************************** UPLOAD END *************************************************/
+
+/*********************************************** ARROWS ******************************************************/
+.arrow_01 {background: #1e1e1e url(../images/canvas/arrowb.png) 94px no-repeat;}
+.arrow_02 {background: #1e1e1e url(../images/canvas/arrowg.png) 94px no-repeat;}
+.arrow_03 {background: #1e1e1e url(../images/canvas/arrowr.png) 94px no-repeat;}
+.arrow_04 {background: #1e1e1e url(../images/canvas/arrowy.png) 94px no-repeat;}
+.noArrow {background-position: 140px !important;}
+.arrowWhite {background: #1e1e1e url(../images/canvas/arroww.png) 94px no-repeat;}
+/*********************************************** ARROWS ******************************************************/
+
+.center {
+position: relative;
+top: 0; bottom:0; left: 0; right:0;
+margin: auto;
+}
+/************************************************* JQ ****************************************************/
+.jumpup{margin-top:-100px; margin-bottom: 110px;}
+.jumpupFix{margin-bottom: 0;}
+.color_01{background-color: #4a7180; box-shadow:inset 5px 0 0 0 #4a7180 !important;}
+.color_02{background-color: #6c9537; box-shadow:inset 5px 0 0 0 #6c9537 !important;}
+.color_03{background-color: #d15344; box-shadow:inset 5px 0 0 0 #d15344 !important;}
+.color_04{background-color: #e9bf37; box-shadow:inset 5px 0 0 0 #e9bf37 !important;}
+.title01 p, .title01 p span {color: #fff !important;line-height: 1.5em;}
+.titleSet {height: 100px;}
+.titleSet p {padding-top: 10px; padding-left: 20px;}
+
+.navTitleIn {margin-left: 0;}
+
+.navTitleBackC1 {background-color: #4a7180; opacity: 0.8;}
+.navTitleBackC_01 {background-color: #4a7180; opacity: 0.8; transition-delay:0 !important;}
+.navTitleBackC_02 {background-color: #6c9537; opacity: 0.8; transition-delay:0 !important;}
+.navTitleBackC_03 {background-color: #d15344; opacity: 0.8; transition-delay:0 !important;}
+.navTitleBackC_04 {background-color: #e9bf37; opacity: 0.8; transition-delay:0 !important;}
+/************************************************* JQ ****************************************************/
+.but_nav:hover, .but_content:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+#mainCont>div{display:none;}
+.options>div{display: none;}
+
+/*********************************************** PREVIEW START ************************************/
+/*For Cube*/
+.cube {
+  height: 240px;
+  position: relative;
+  width: 240px;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -mos-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+}
+
+
+.face {
+
+  background-color: rgb(50, 50, 50);
+  -webkit-box-shadow: inset 0 0 120px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  overflow:hidden;
+}
+
+.one  {
+
+  background-color: rgb(242, 24, 25);
+
+}
+
+.two {
+
+  background-color: rgb(100, 24, 25);
+ 
+}
+
+.three {
+  background-color: rgb(252, 209, 22);
+}
+
+.four {
+  background-color: rgb(252, 45, 213);
+
+}
+
+.five {
+  background-color: rgb(125, 105, 181);
+}
+
+.six {
+  background-color: rgb(22, 226, 38);
+}
+
+/*For Canvas*/
+#divcenter-img {position:relative}
+#box_wrap div {position:relative}
+ .mirrorx {
+     -moz-transform: scale(-1, 1);
+     -webkit-transform: scale(-1, 1);
+     transform: scale(-1, 1);
+  }
+ .mirrory {
+     -moz-transform: scale(1, -1);
+     -webkit-transform: scale(1, -1);
+     transform: scale(1, -1);
+  }
+/*********************************************** PREVIEW END ************************************/

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Create your canvas</title>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="stylesheet" href="style/canvas.css">
+	
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a href="index.html">
+			<img src="images/logo.png" alt="auscanvasart" />
+			</a>
+		</div>
+		<div class="dashed"></div>
+	</header>
+	
+	<nav>
+		<div class="container">
+			<div id="menu">
+				<ul class="fl">
+					<li><a href="index.html" > Home </a></li>
+					<li><a href="canvas.html" class="active"> Start Canvas </a></li>
+					<li><a href="#"> Products </a></li>
+					<li><a href="#"> Gallery </a></li>
+					<li><a href="#"> Contact </a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<main>
+	<div id="canvas" class="container">
+		<div id="cv_left_nav" class="fl">
+			<!-- title -->
+			<div id="nav_title">
+				<div class="nav_title">
+					<img src="images/canvas/title_arw.png"/>
+				</div>
+			</div>
+			<!-- button 1 -->
+			<div class="but_nav arrow_01" data-butcont="01" >
+				<img src="images/canvas/canvas.png" alt="">
+			</div>
+
+			<!-- button 2 -->
+			<div class="but_nav arrow_02" data-butcont="02">
+				<img src="images/canvas/upload.png" alt="">
+			</div>
+
+			<!-- button 3 -->
+			<div class="but_nav arrow_03" data-butcont="03">
+				<img src="images/canvas/edit.png" alt="">
+			</div>
+
+			<!-- button 4 -->
+			<div class="but_nav arrow_04" data-butcont="04">
+				<img src="images/canvas/buy.png" alt="">
+			</div>
+
+		</div>
+		<div id="cv_content">
+			<!-- title -->
+			<div id="content_title">
+				
+			</div>
+
+			<!-- button 1 -->
+			<div class="but_content but_cont_01" data-arrow="arrowb" style="box-shadow:inset 5px 0 0 0 #4a7180;">
+				<div class="des">
+					<p><span>Select your Canvas Size</span> <br />Simply click to select your desired size and click 'Next'</p>
+				</div>
+			</div>
+
+			<!-- button 2 -->
+			<div class="but_content but_cont_02"  data-arrow="arrowg" style="box-shadow:inset 5px 0 0 0 #6c9537;">
+				<div class="des">
+					<p><span>Upload Your Image</span> <br />jpg,bmp,gif,png,tif files are allowed and maximum of 20MB. Please use modern browsers like Firefox, Safari or Chrome for better results. </p>
+				</div>
+			</div>
+
+			<!-- button 3 -->
+			<div class="but_content but_cont_03" data-arrow="arrowr" style="box-shadow:inset 5px 0 0 0 #d15344;">
+				<div class="des">
+					<p><span>Options</span> <br />Choose any options and click Preview</p>
+				</div>
+			</div>
+			<!-- button 4 -->
+			<div class="but_content but_cont_04" data-arrow="arrowy" style="box-shadow:inset 5px 0 0 0 #e9bf37;">
+				<div class="des">
+					<p><span>Purchase</span> <br />After editing, you can put it for print</p>
+				</div>
+			</div>
+			<div id="mainCont">
+			<div class="mainCont_01">
+				<div class="fl">
+				<p class="select_title">Square</p>
+				<ul>
+					<li><button type="button" data-canSize="30x30">30x303</button> <span>cm</span> $23</li>
+					<li><button type="button" data-canSize="40x40">40x40</button> <span>cm</span> $32</li>
+					<li><button type="button" data-canSize="50x50">50x50</button> <span>cm</span> $42</li>
+				</ul>
+				</div>
+				<div class="fl">
+				<p class="select_title">Rectangle</p>
+				<ul>
+					<li><button type="button" data-canSize="30x20">30x20</button> <span>cm</span> $25</li>
+					<li><button type="button" data-canSize="40x40">40x40</button> <span>cm</span> $32</li>
+					<li><button type="button" data-canSize="30x45">30x45</button> <span>cm</span> $32</li>
+				</ul>
+				</div>
+				<div class="fl">
+				<p class="select_title">Panorama</p>
+				<ul>
+					<li><button type="button" data-canSize="60x20">60x20</button> <span>cm</span> $33</li>
+					<li><button type="button" data-canSize="90x30">90x30</button> <span>cm</span> $59</li>
+					<li><button type="button" data-canSize="120x40">120x40</button> <span>cm</span> $84</li>
+				</ul>
+				</div>
+			</div>
+			<div class="mainCont_02" style="display:none;">
+				
+					<img src="images/canvas/preview.png" alt="" />
+					<p style="margin: 10px;">Drop an image here <br /> or</p>
+					<!-- <form action="" method="post" enctype="multipart/form-data" id="uploadform"> -->
+						<input type="file" name="file" id="file" style="margin-left: 338px;"><br />
+						<!-- <button type="button">Browse</button> <br /> -->
+						<p style="margin: 10px;">or</p>
+						<input type="text" value="http://imgs.mi9.com/uploads/cartoon/3936/auto-ford-f150-raptor-sample_800x600_63182.jpg" style="margin-left: 342px;" id="img_link"> <br />
+						<button style="margin: 20px 410px;" id="up_but">Upload</button>
+					<!-- </form> -->
+					<div class="nav_buttons" style="margin: -35px 0 0 0;">
+						<button class="navigation prev-step">Previous</button>
+						<button class="navigation next-step">Next</button>
+					</div>
+			</div>
+			<div class="mainCont_03" >
+				<div id="preview" class="fr" style="width:345px;">
+				<div id="box_wrap" >
+    
+					<div id="divtop" >
+					   <img id="divtop-img"/>
+					</div>
+					 <div id="divleft">
+					   <img id="divleft-img" />
+					</div>   
+					<div id="divcenter">
+					   <img id="divcenter-img" />
+					</div>
+					 <div id="divright">
+					   <img id="divright-img" />
+					</div>
+					<div id="divbot" >
+					   <img id="divbot-img"  />
+					</div>
+					  
+				</div>
+
+
+
+				<img src="images/canvas/zoomout.png" style="margin-left: 75px;"/><input type="range" name="points" min="-10" max="10" step="0" value="0" style="width: 80px; margin: 19px 2px 31px 3px;"> <img src="images/canvas/zoomin.png" /> <br/>
+				<button id="3d_prev" style="margin-left: 85px;">3D Preview</button>
+				
+				<div id="cube" style="display:none;">
+					<div class="cube">
+					<div class="face one"><img id="cubetop-img"/>
+					</div>
+					<div class="face two"><img id="cubecenter-img"/>
+					</div>
+					<div class="face three"><img id="cuberight-img" /></div>
+					<div class="face four"></div>
+					<div class="face five"><img id="cubeleft-img" /></div>
+					<div class="face six"><img id="cubebot-img"  /></div>
+					</div>
+				</div>
+	
+				</div>
+				<div class="optionwrap">
+				<p class="butOpt">1. Border</p>
+				<div class="options" >
+					<div class="clearfix">
+						<p class="fl"><span>Image Wrap</span><br /> Your image wraps around the edge of your canvas print.</p>
+						<img src="images/canvas/optImg.png" alt="" class="fr">
+					</div>
+					<div class="clearfix">
+						<p class="fl"><span>Mirror Image</span><br /> Your image mirrors around the edge of your canvas print.</p>
+						<img src="images/canvas/optImg.png" alt="" class="fr">
+					</div>
+				</div>
+					
+				</div>
+				<div class="optionwrap" style="height: 460px;">
+				<p class="butOpt">2. Color Finishing</p>
+				<div class="options" >
+					<div class="clearfix">
+						<input type="radio" name="color" value="none">
+						<p class="fl"><span>None</span><br /> Included</p>
+						<img src="images/canvas/optImg.png" alt="" class="fr">
+					</div>
+					<div class="clearfix" id="go-bnw">
+						<input type="radio" name="color" value="bnw">
+						<p class="fl"><span>Black and White</span><br /> Included</p>
+						<img src="images/canvas/optImg.png" alt="" class="fr">
+					</div>
+					<div class="clearfix" id="go-sepia">
+						<input type="radio" name="color" value="sepia">
+						<p class="fl"><span>Sepia</span><br /> Included</p>
+						<img src="images/canvas/optImg.png" alt="" class="fr">
+					</div>
+					
+				</div>
+				</div>
+				<div id="preview-img">
+				<canvas id="canvas-to-img"></canvas>
+				</div>
+				<div class="nav_buttons">
+					<button class="navigation prev-step">Previous</button>
+					<button class="navigation next-step">Next</button>
+				</div>
+
+			</div>
+			<div class="mainCont_04">
+				<form action="" class="fl" id="form1" style="margin-bottom: 50px;">
+					<input type="text" placeholder="First name" required><br />
+					<input type="text" placeholder="Last name" required><br />
+					<input type="email" placeholder="E-mail"required><br />
+					<input type="text" placeholder="Telephone" required><br />
+					<input type="submit" value="Proceed" class="btn">
+				</form>
+				
+				<div class="nav_buttons">
+					<button class="navigation prev-step">Previous</button>
+				</div>
+			</div>
+			</div>
+
+		</div>
+	</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-ft">
+					<h3 class="widget-title">Twitter Updates</h3>
+					<ul class="tweets">
+						<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor <br /> <span>1 hour ago</span></li>
+						<li>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus <br /> <span>2 hours ago</span></li>
+					</ul>
+				</div>
+				<div class="col-ft">
+					<h3 class="widget-title">Signup for Newsletter</h3>
+					<p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+					<form action="">
+						<input type="email" placeholder="Enter you e-mail">
+						<input type="submit" class="btn btn-red" value="Sign Up">
+					</form>
+				</div>
+				<div class="col-ft">
+					<h3 class="widget-title">Contact</h3>
+					<p>Phone: 0404 221 312</p>
+					<p>Email: aus.canvas.art@gmail.com</p>
+				</div>
+			</div>
+			<div class="row">
+				
+			</div>
+		</div>
+	</footer>
+	
+</body>
+<script src="script/jquery.js" /></script>
+<script src="script/canvas.js" /></script>
+<script src="script/jquery-ui.min.js"></script>
+<script src="script/caman.full.min.js"></script>
+<script src="script/custom.js"></script>
+</html>
